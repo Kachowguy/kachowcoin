@@ -1,0 +1,37 @@
+.card {
+  width: 32rem;
+  background: white;
+  border: 2px solid #ffef20;
+  border-radius: 50px;
+  margin-bottom: 5rem;
+}
+
+.label {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "noteworthy";
+}
+
+.card ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.card ul li {
+  list-style-type: none;
+  font-size: 2rem;
+  color: black;
+  font-family: "noteworthy";
+  padding-bottom: 0.1rem;
+}
+
+@media (max-width: 550px) {
+  .card {
+    width: 100%;
+    margin: auto;
+  }
+
+  .card ul li {
+    font-size: 1.5rem;
+  }
+}

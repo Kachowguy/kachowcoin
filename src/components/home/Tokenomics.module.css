@@ -1,0 +1,68 @@
+.tokenomics > h1 {
+  text-align: center;
+  font-size: 8rem;
+  font-style: italic;
+  text-shadow: 0 0 2px black, 0 0 4px black;
+}
+
+.tokenomics {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.content {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.content div h2,
+.content div h3 {
+  text-align: center;
+}
+
+.content div h2 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 0 2px #ffef20, 0 0 4px #ffef20;
+}
+
+.content div h3 {
+  font-size: 8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #ffef20;
+  text-shadow: 0 0 2px black, 0 0 7px black;
+}
+
+@media (max-width: 858px) {
+  .content div h2 {
+    font-size: 2rem;
+  }
+  .content div h3 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .tokenomics > h1 {
+    font-size: 4rem;
+    margin-bottom: 0rem;
+  }
+
+  .tokenomics {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .content div h2 {
+    font-size: 1.5rem;
+  }
+  .content div h3 {
+    font-size: 3rem;
+  }
+
+  .tokenomics {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
