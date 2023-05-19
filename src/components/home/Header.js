@@ -25,16 +25,10 @@ const Header = () => {
       </div>
       <img className={classes.car} src='/car.png' alt='' />
       <div className={classes.btns}>
-        <a
-          href='https://www.dextools.io/app/en/ether/pair-explorer/0x96c04cf05256d842e3b39325499f223717a979b8'
-          target='_blank'
-          rel='noreferrer'>
-          <button className={classes.btn}>BUY NOW!</button>
-        </a>
-        <a href='https://t.me/LightningMcCoin' target='_blank' rel='noreferrer'>
-          <button className={classes.btn}>JOIN THE PIT CREW!</button>
-        </a>
+        <button className={classes.btn}>BUY NOW!</button>
+        <button className={classes.btn}>JOIN THE PIT CREW!</button>
       </div>
+      <p>Contract Address : 0x570804ef7306df109fd108a0ff272c76c544d026</p>
     </div>
   );
 };
