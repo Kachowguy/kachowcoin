@@ -14,6 +14,12 @@ const Contact = () => {
           rel='noreferrer'>
           <img className={classes.img} src='/images/contact/3.png' alt='' />
         </a>
+        <a
+          href='https://www.dextools.io/app/en/ether/pair-explorer/0x96c04cf05256d842e3b39325499f223717a979b8'
+          target='_blank'
+          rel='noreferrer'>
+          <img className={classes.img} src='/token.png' alt='' />
+        </a>
       </div>
       <p>McQueen@kachowcoin.com</p>
       <p style={{ paddingBottom: "4rem" }}>
